@@ -6,10 +6,10 @@ class Backoff {
     /**
      * 
      * @param {Object} opts 
-     * @param {Number} [opts.min=100] minimum timeout 
-     * @param {Number} [opts.max=100] maximum timeout 
-     * @param {Number} [opts.factor] factor for each increment step 
-     * @param {Number} [opts.factor] jitter eases contention by randomizing backoff steps step 
+     * @param {Number} [opts.min=100] min timeout in milliseconds 
+     * @param {Number} [opts.max=100] max timeout in milliseconds 
+     * @param {Number} [opts.factor] factor every call to `duration()` it is multiplied by factor 
+     * @param {Number} [opts.factor] jitter randomization to the backoff durations
      */
     constructor(opts) {
         this.opts = opts || {};
