@@ -17,7 +17,7 @@ $ npm i node-backoff --save
 
 ## Using
 
-```shell
+```javascript
  const Backoff = require('node-backoff');
 
  let backoff = new Backoff();
@@ -29,5 +29,5 @@ $ npm i node-backoff --save
  //or forAttempt()
  let t1 = backoff.forAttempt(2);//400ms
 
- backoff.reset();// reset attempts
+ backoff.reset();// reset attempts = 0
 ```
