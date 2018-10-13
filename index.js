@@ -24,8 +24,7 @@ class Backoff {
      * returns the duration for attempt
      */
     duration() {
-        this.attempts++;
-        return this.forAttempt(this.attempts);
+        return this.forAttempt(this.attempts++);
     }
 
     /**
@@ -50,4 +49,5 @@ class Backoff {
     }
 }
 
-module.export = Backoff;
+
+module.exports = Backoff;

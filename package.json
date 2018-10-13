@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/feiin/node-backoff/issues"
   },
-  "homepage": "https://github.com/feiin/node-backoff#readme"
+  "homepage": "https://github.com/feiin/node-backoff#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  }
 }
