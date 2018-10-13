@@ -1,0 +1,22 @@
+{
+  "name": "node-backoff",
+  "version": "1.0.0",
+  "description": "Simple backoff in node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feiin/node-backoff.git"
+  },
+  "keywords": [
+    "backoff"
+  ],
+  "author": "solar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feiin/node-backoff/issues"
+  },
+  "homepage": "https://github.com/feiin/node-backoff#readme"
+}
