@@ -18,6 +18,7 @@ $ npm i node-backoff --save
 ## Using
 
 ```shell
+ const Backoff = require('node-backoff');
 
  let backoff = new Backoff();
  let d1 = backoff.duration();//100ms
